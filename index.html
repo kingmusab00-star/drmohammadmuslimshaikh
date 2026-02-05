@@ -1,0 +1,133 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/> <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Mohammad Muslim Shaikh | Official Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #1a2a6c;
+            --accent: #b8860b;
+            --text-dark: #333;
+            --bg-muted: #f8f9fa;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: var(--text-dark); background-color: #fdfdfd; scroll-behavior: smooth; }
+
+        header {
+            background: linear-gradient(rgba(26, 42, 108, 0.9), rgba(26, 42, 108, 0.9)), 
+                        url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80');
+            background-size: cover; background-position: center;
+            height: 65vh; display: flex; flex-direction: column; justify-content: center; align-items: center;
+            text-align: center; color: white; padding: 20px;
+        }
+
+        h1 { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 10px; }
+        .subtitle { font-size: 1.1rem; text-transform: uppercase; letter-spacing: 2px; color: var(--accent); font-weight: 600; max-width: 800px; }
+
+        nav { background: white; padding: 1rem; position: sticky; top: 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 1000; text-align: center; }
+        nav a { text-decoration: none; color: var(--primary); margin: 0 15px; font-weight: 600; font-size: 0.9rem; transition: 0.3s; }
+        nav a:hover { color: var(--accent); }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+        section { margin-bottom: 50px; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.05); }
+        h2 { font-family: 'Playfair Display', serif; color: var(--primary); font-size: 2rem; margin-bottom: 25px; border-left: 5px solid var(--accent); padding-left: 15px; }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: var(--bg-muted); padding: 25px; border-radius: 8px; border-top: 4px solid var(--primary); transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .card strong { display: block; color: var(--primary); margin-bottom: 8px; font-size: 1.15rem; }
+
+        /* Social Buttons */
+        .social-links { display: flex; gap: 15px; margin-top: 20px; justify-content: center; }
+        .social-btn { 
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 50px; height: 50px; border-radius: 50%; 
+            background: var(--primary); color: white; text-decoration: none; font-size: 1.5rem; transition: 0.3s;
+        }
+        .social-btn:hover { background: var(--accent); transform: scale(1.1); }
+        .social-btn.fb { background: #1877F2; }
+        .social-btn.ig { background: #E4405F; }
+
+        /* Gallery Placeholder */
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; }
+        .gallery-item { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; border: 1px solid #ddd; background: #eee; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 0.8rem; color: #777; }
+
+        footer { background: var(--primary); color: white; text-align: center; padding: 50px 20px; }
+        .footer-tag { font-size: 0.85rem; opacity: 0.8; margin-top: 15px; letter-spacing: 1px; }
+
+        @media (max-width: 768px) { section { padding: 25px; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dr. Mohammad Muslim Jamaluddin Shaikh</h1>
+        <p class="subtitle">Chairman, All India Pasmanda Muslim Samaj (Maharashtra IT Cell) <br> & Human Resource Management Professional</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/dr.mohammadmuslimshaikh" target="_blank" class="social-btn fb"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/dr_mohammad_muslim_shaikh?igsh=aGJvYWs3cmYydnJ1" target="_blank" class="social-btn ig"><i class="fab fa-instagram"></i></a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#roles">Roles</a>
+        <a href="#awards">Recognition</a>
+        <a href="#connect">Connect</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>Professional Profile</h2>
+            <p><strong>Dr. Mohammad Muslim Jamaluddin Shaikh</strong> is a distinguished leader based in Khopoli, Maharashtra, specializing in Human Resource Management and Social Advocacy. With an <strong>Honorary Doctorate in HRM</strong> and a <strong>Doctorate in Business Administration</strong>, he has dedicated his life to ethical leadership and the empowerment of marginalized communities.</p>
+        </section>
+
+        <section id="roles">
+            <h2>Institutional Leadership</h2>
+            <div class="grid">
+                <div class="card">
+                    <strong>Chairman</strong>
+                    All India Pasmanda Muslim Samaj (Maharashtra IT Cell)
+                </div>
+                <div class="card">
+                    <strong>National Member</strong>
+                    The World Peace Committee & World Human Rights Protection Commission
+                </div>
+                <div class="card">
+                    <strong>HR Expert</strong>
+                    Over two decades of excellence in Talent Management and Organizational Development.
+                </div>
+            </div>
+        </section>
+
+        <section id="awards">
+            <h2>Honors & Awards</h2>
+            <div class="grid">
+                <div class="card"><strong>Rashtriya Satyamev Jayate Sammaan (2026)</strong> For valuable contributions to HRM and ethical leadership.</div>
+                <div class="card"><strong>Rashtra Bhushan Award (2025)</strong> Recognizing excellence in Business Administration.</div>
+                <div class="card"><strong>International Achievers Award</strong> For outstanding impact as an Overseas HR Recruiter.</div>
+            </div>
+        </section>
+
+        <section id="connect" style="text-align: center;">
+            <h2>Connect With Me</h2>
+            <p>Follow my official pages for updates on social initiatives and professional insights.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/dr.mohammadmuslimshaikh" target="_blank" class="social-btn fb"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/dr_mohammad_muslim_shaikh?igsh=aGJvYWs3cmYydnJ1" target="_blank" class="social-btn ig"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p style="margin-top: 20px; font-weight: 600; color: var(--primary);">Khopoli, Maharashtra, India</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Dr. Mohammad Muslim Jamaluddin Shaikh</p>
+        <p class="footer-tag">Social Justice Advocate | HR Strategist | Humanitarian</p>
+    </footer>
+
+</body>
+</html>
